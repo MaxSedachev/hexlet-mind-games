@@ -31,9 +31,9 @@ function getRandomInt(min, max) {
    const getQuestionAndAnswer = () => {
     const num1 = getRandomInt (1, 20);
     const num2 = getRandomInt (1, 20);
-    const operation = operations[getRandomNumber(0, operations.length)];
-    const question = `${num1}${operations}${num2}`;
-    const correctAnswer = calcAnswer(num1, num2, operation);
+    const operation = operations[getRandomInt(0, operations.length)];
+    const question = `${num1}${operation}${num2}`;
+    const correctAnswer = calcAnswer(num1, num2, operation).toString();
 
     return [question, correctAnswer];
    };
