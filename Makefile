@@ -1,6 +1,9 @@
 install:
 	npm ci
 
+brain-gcd:
+	node bin/brain-gcd.js
+
 brain-even:
 	node bin/brain-even.js
 
