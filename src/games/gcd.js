@@ -1,4 +1,5 @@
 import game from '../index.js';
+import getRandom from '../random.js';
 
 const description = 'Find the greatest common divisor of given numbers.';
 
@@ -9,15 +10,9 @@ function greatestCommonDivisor(num1, num2) {
     return greatestCommonDivisor(num2, num1 % num2);
 };
    
-function getRandomInt(min, max) {
-    min = Math.ceil(min);
-    max = Math.floor(max);
-    return Math.floor(Math.random() * (max - min) + min);
-   };
-
-   const getQuestionAndAnswer = () => {
-    const num1 = getRandomInt (1, 20);
-    const num2 = getRandomInt (1, 20);
+const getQuestionAndAnswer = () => {
+    const num1 = getRandom (1, 20);
+    const num2 = getRandom (1, 20);
     const question = `${num1} ${num2}`;
     const correctAnswer = greatestCommonDivisor(num1, num2).toString();
 

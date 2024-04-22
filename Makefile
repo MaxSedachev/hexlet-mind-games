@@ -1,6 +1,9 @@
 install:
 	npm ci
 
+brain-progression:
+	node bin/brain-progression.js
+
 brain-gcd:
 	node bin/brain-gcd.js
 
