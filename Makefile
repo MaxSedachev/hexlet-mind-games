@@ -22,5 +22,5 @@ brain-calc:
 publish:
 	npm publish --dry-run
 
-make lint:
-	npx eslint
+make link:
+	npx eslint .
