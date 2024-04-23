@@ -11,20 +11,20 @@
 ## Мини-игры
 1. Проверка на четность: Игроку показывается случайное число, и ему нужно ответить ```yes```, если число чётное, или ```no```, если нечётное;\
 Запуск: ```make brain-even```\
-[Проверка на четность](https://asciinema.org/a/6NNtwj2smjpSMS5YjGgYxOUB2)\
+[Проверка на четность](https://asciinema.org/a/6NNtwj2smjpSMS5YjGgYxOUB2)
 
 2. Калькулятор: Игроку показывается случайное математическое выражение, которое нужно вычислить и записать правильный ответ;\
 Запуск: ```make brain-calc```\
-[Калькулятор](https://asciinema.org/a/hNRMN24la7YtOdtoHopPhcMMz)\
+[Калькулятор](https://asciinema.org/a/hNRMN24la7YtOdtoHopPhcMMz)
 
 3. Определение наибольшего общего делителя (НОД): Игра, в которой игроку предлагается найти наибольший общий делитель двух чисел;\
 Запуск: ```make brain-gcd```\
-[НОД](https://asciinema.org/a/U6NDrrD5QbzqBJdPPgRNATkxb)\
+[НОД](https://asciinema.org/a/U6NDrrD5QbzqBJdPPgRNATkxb)
 
 4. Простое ли число?: Игроку предлагается определить, является ли число простым;\
 Запуск: ```make brain-prime```\
-[Простое ли число?](https://asciinema.org/a/4dIXd57umQ3QrBHoV2nBLCE7J)\
+[Простое ли число?](https://asciinema.org/a/4dIXd57umQ3QrBHoV2nBLCE7J)
 
 5. Прогрессия: Игроку показывается ряд чисел, образующий арифметическую прогрессию, и ему нужно отгадать число, которое находится за точками.\
 Запуск: ```make brain-progression```\
-[Прогрессия](https://asciinema.org/a/Nqes31oZ3F7uDCLuKrlqLGuIh)\
+[Прогрессия](https://asciinema.org/a/Nqes31oZ3F7uDCLuKrlqLGuIh)
